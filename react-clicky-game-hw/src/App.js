@@ -30,7 +30,7 @@ state = {
 // HandleClick
 handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
-      this.heandleIncrement();
+      this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
     } else {
       this.handleReset();
